@@ -57,4 +57,4 @@ El proyecto está organizado de la siguiente manera:
 1. **Clonar el Repositorio**:
 
    ```bash
-   git clone https://github.com/tu_usuario/sorpresas-peludas.git
+   git clone [https://github.com/tu_usuario/sorpresas-peludas.git](https://github.com/leonaldo999/dia21TareaClase.git)
