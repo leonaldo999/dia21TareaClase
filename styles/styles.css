@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Roboto Condensed", sans-serif;
+  src: url(../estio-texto/fonts/RobotoCondensed-Italic-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+:root {
+  --color1: #FFA200;
+  --color2: #9900FF;
+  --color3: #39AA6A;
+  --color4: #806840;
+  --color5: #00FF6F;
+  --color-blaco: #ffffff;
+  --color-negro: #000000;
+  --color-gris-claro: #cccccc;
+  --color-gris-oscuro: #333333;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  background-color: var(--color1);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  word-spacing: px;
+}
+
+#header h1,
+#header p {
+  margin-bottom: 0;
+}
+
+.navbar {
+  background-color: var(--color1);
+}
+
+#nosotros {
+  background-color: var(--color2);
+  color: var(--color-blaco);
+}
+
+#adopcion {
+  background-color: var(--color5);
+}
+
+#inscripcion {
+  background-color: var(--color3);
+  color: var(--color-blaco);
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 200;
+  letter-spacing: -2px;
+  text-transform: lowercase;
+}
+
+.padded {
+  padding: 90px 0;
+}
+
+#footer {
+  background-color: var(--color-gris-oscuro);
+  color: var(--color-gris-claro);
+  padding: 45px 0;
+}
+
+
+.carousel-indicators [data-bs-target] {
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* ---------------media queries--------------- */
+@media (min-width: 1600px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1520px;
+  }
+}

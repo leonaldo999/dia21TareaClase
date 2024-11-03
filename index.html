@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dia-21 Tarea (Bootstrap)</title>
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+  <!-- Fuente Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <h1>Sorpresas <span class="align-middle">Peludas</span></h1>
+      <p>Albergue Sorpresa Peludas: amor, cuidado, rescate, adopción, felicidad canina.</p>
+    </div>
+  </header>
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+
+      <a class="navbar-brand" href="index.html"><img src="assets/logoSor.jpg" class="d-block rounded-circle"
+          alt="logo sorpresas Peludas"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#adopcion">Adopcion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#labores">Labores Disponibles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#inscripcion">Inscripción para Voluntariado</a>
+          </li>
+          
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/banerDog3.jpg" class="d-block w-100" alt="Adopatar es bueno">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/bareDog1.jpg" class="d-block w-100" alt="Adopta este lido cachorro">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/banerDo2.jpg" class="d-block w-100" alt="Adoptar salva vidas">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Nosotros section -->
+  <section id="nosotros" class="padded">
+    <div class="container">
+      <h2>Nosotros</h2>
+      <p>
+        El albergue de rescate de perros "Sorpresas Peludas", ubicado en Lima, Perú, es un refugio dedicado a la
+        protección y bienestar de perros abandonados y maltratados. Fundado y dirigido por Geraldine, este albergue se
+        ha convertido en un faro de esperanza para muchos animales que han sufrido en las calles. Con un enfoque en la
+        rehabilitación y la adopción responsable, "Sorpresas Peludas" ofrece un ambiente seguro y amoroso donde los
+        perros pueden recuperarse y socializar. Geraldine y su equipo de voluntarios trabajan incansablemente para
+        proporcionar atención médica, alimentación adecuada y un espacio donde los perros puedan jugar y sentirse
+        queridos. <br><br>
+
+        Además de su labor de rescate, "Sorpresas Peludas" se involucra activamente en la comunidad para fomentar la
+        adopción y la concienciación sobre el bienestar animal. A través de campañas educativas y eventos de adopción,
+        el albergue busca sensibilizar a la población sobre la importancia de cuidar y proteger a los animales.
+        Geraldine ha logrado crear un vínculo especial con cada perro en el albergue, asegurándose de que cada uno
+        reciba la atención y el amor que necesita. Gracias a su dedicación y al apoyo de la comunidad, "Sorpresas
+        Peludas" continúa transformando vidas y ofreciendo un futuro mejor a los perros que llegan a sus puertas.
+      </p>
+    </div>
+  </section>
+
+  <!-- En adopcion section -->
+  <section id="adopcion" class="padded">
+
+    <div class="container">
+      <h2>En Adopción</h2>
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/lindaAdop.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Linda</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets/gringaAdop.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gringa</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets/monaAdop.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mona</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets/titaAdop.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tita</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets/pipo3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pipo</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Labores -->
+  <section id="labores" class="padded">
+    <div class="container">
+      <h2>Labores Disponibles</h2>
+      <ul>
+        <li><strong>Baño de Perro:</strong> Ayuda a mantener a nuestros amigos peludos limpios y frescos.</li>
+        <li><strong>Paseo:</strong> Acompaña a nuestros perros en sus paseos diarios, brindándoles amor y ejercicio.
+        </li>
+        <li><strong>Limpieza del Local:</strong> Colabora en mantener nuestro albergue en condiciones óptimas para
+          nuestros perros.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Sección de Inscripción -->
+  <section id="inscripcion" class="padded">
+    <div class="container">
+      <h2>Inscripción para Voluntariado</h2>
+      <p>Si deseas ayudar en nuestras labores, por favor completa el siguiente formulario:</p>
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre Completo</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="telefono" class="form-label">Teléfono</label>
+          <input type="tel" class="form-control" id="telefono" required>
+        </div>
+        <div class="mb-3">
+          <label for="labores" class="form-label">Labores en las que deseas participar</label>
+          <select class="form-select" id="labores" multiple required>
+            <option value="bano">Baño de Perro</option>
+            <option value="paseo">Paseo</option>
+            <option value="limpieza">Limpieza del Local</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Inscripción</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      &COPY; 2024 - Todos los derechos reservados Sorpresas Peludas
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
